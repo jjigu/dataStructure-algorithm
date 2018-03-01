@@ -42,9 +42,7 @@ void test_myArray() {
 	/* Gives values to elementes of the array */
 	for (int i = 0; i < arraySize2; i++) myArray2[i] = i;
 
-
-
-	/* print array Value */
+	/* Print array Value */
 	printf("\nStart to print elements of the first array.\n");
 	for (int i = 0; i < arraySize1; i++)
 		printf("array1 [%d] = %d \n", i, myArray1[i]);

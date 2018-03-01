@@ -13,18 +13,24 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\myArray">
+      <UniqueIdentifier>{0338c788-d74a-4915-8431-7035995d0fd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\myArray">
+      <UniqueIdentifier>{d8a16fdb-93a3-48e4-8c25-6b6728de8f18}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="myArray.c">
-      <Filter>소스 파일</Filter>
+      <Filter>소스 파일\myArray</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="myArray.h">
-      <Filter>헤더 파일</Filter>
+      <Filter>헤더 파일\myArray</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
