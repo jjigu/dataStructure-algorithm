@@ -18,6 +18,13 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.c" />
+    <ClCompile Include="src\myArray\myArray.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\myArray\myArray.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{8552C9E1-DE15-4899-B531-692FE82362AB}</ProjectGuid>
@@ -142,13 +149,6 @@
       <SubSystem>Console</SubSystem>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="main.c" />
-    <ClCompile Include="myArray.c" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="myArray.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
