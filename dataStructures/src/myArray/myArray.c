@@ -17,8 +17,8 @@ void test_myArray() {
 
 	int * myArray1;
 	int * myArray2;
-
-	printf("Please Enter an Array size you want for the first array %(recommend under 5%) : ");
+	
+	printf("Please Enter an Array size you want for the first array recommend under 5 : ");
 	scanf_s("%d", &arraySize1);
 	myArray1 = create_myArray(arraySize1);
 	printf("The first array generated.\n\n");
@@ -35,7 +35,7 @@ void test_myArray() {
 		int num;
 		printf("array [%d] = ", i);
 		scanf_s("%d", &num);
-		myArray1[i] = num;
+		*myArray1 = num;
 	}
 
 	printf("\nThe second array will be filled automatically.\n");
@@ -45,7 +45,7 @@ void test_myArray() {
 	/* Print array Value */
 	printf("\nStart to print elements of the first array.\n");
 	for (int i = 0; i < arraySize1; i++)
-		printf("array1 [%d] = %d \n", i, myArray1[i]);
+		printf("array1 [%d] = %d \n", i, *(myArray1+i));
 
 	printf("\nStart to print elements of the second array.\n");
 	for (int i = 0; i < arraySize2; i++)
